@@ -28,6 +28,12 @@ public class DataManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    void Start()
+    {
+        ShotSton = 0;
+        EnemyKilled = 0;
+    }
+
     public int ShotSton
     {
         get 
